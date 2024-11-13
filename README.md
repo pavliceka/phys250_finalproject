@@ -9,7 +9,7 @@ The HF-SCF method seeks to solve the Roothan equations, which are 'pseudo-eigenv
 $$\sum_{\nu} F_{\mu\nu}C_{\nu i} = \epsilon_i\sum_{\nu}S_{\mu\nu}C_{\nu i}$$
 $${\bf FC} = {\bf SC\epsilon},$$
 
-where C is an orbital coefficient matrix and the orbital energy eigenvalues are given by $\epsilon_i$. F is the Fock matrix, which has elements $F_{\mu\nu}$ given by 
+where C is an orbital coefficient matrix and the orbital energy eigenvalues are given by $\epsilon_i$. These calculations use a basis set of orthonormal wavefunctions that describe atomic orbitals (AOs). Different AO basis sets, which are derived from different starting point approximations to AO wavefunctions, may be used. For example, the STO-nG basis sets use n linear combinations of primitive Gaussian functions to approximate electron probability distributions in different orbitals. F is the Fock matrix, which has elements $F_{\mu\nu}$ given by 
 
 $$F_{\mu\nu} = H_{\mu\nu} + (\mu\,\nu\left|\lambda\,\sigma)P_{\lambda\sigma} - 1/2(\mu\,\lambda\right|\nu\,\sigma)P_{\lambda\sigma},$$
 
